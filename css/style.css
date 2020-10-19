@@ -10,7 +10,7 @@ header {
   background-image: url(../images/banners/jr.jpg);
   background-size: cover;
   height: 50px;
-  
+
 }
 h1,
 h2,
@@ -41,4 +41,18 @@ nav {
 
 .inspiration-img {
   width: 550px;
+}
+
+.three-col {
+display: flex;
+flex: 1;
+}
+
+.three-col article {
+  flex: 1;
+  padding: 10px;
+}
+
+.three-col .description {
+  flex-grow: 2;
 }
