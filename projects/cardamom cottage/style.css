@@ -1,0 +1,47 @@
+img {
+    width: 100%;
+  }
+  
+  body {
+      background: yellowgreen;
+  }
+  
+  .natalia-grid {
+      display: flex;
+  }
+  .natalia-grid section {
+      padding: 40px;
+  }
+  .natalia-grid .photo-col {
+      flex: 50%;
+  }
+  .natalia-grid .text-col {
+      flex: 50%;
+  }
+  .nav-img:hover {
+    filter: invert(169%);
+  }
+  
+  .home-grid {
+    display: flex;
+  }
+  
+  .home-grid section {
+    padding: 40px;
+  }
+  
+  main {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .home-grid .small-col {
+    flex: 30%;
+  }
+  .home-grid .lrg-col {
+    flex: 40%;
+  }
+
+  }
+  body { margin: 0;}
+* {box-sizing: border-box;}
