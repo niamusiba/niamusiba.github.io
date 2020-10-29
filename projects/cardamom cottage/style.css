@@ -1,23 +1,46 @@
 img {
     width: 100%;
   }
+
+  .home-img {
+    padding-top: 160px;
+  }
+
+  .home-img:hover {
+    filter: invert(169%);
+  }
   
   body {
       background: yellowgreen;
   }
 
+  p {
+    color: 1c1b1b;
+    text-align: justify;
+    width: 88%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .natalia-name {
+    padding-top: 475px;
+  }
+
   .natalia-grid {
       display: flex;
   }
+
   .natalia-grid section {
       padding: 40px;
   }
+
   .natalia-grid .photo-col {
-      flex: 50%;
+      flex: 60%;
   }
+
   .natalia-grid .text-col {
-      flex: 50%;
+      flex: 40%;
   }
+
   .nav-img:hover {
     filter: invert(169%);
   }
@@ -41,6 +64,38 @@ img {
   .home-grid .lrg-col {
     flex: 40%;
   }
+  .navbar {
+    background-color: greenyellow;
+    
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .navbar a:hover {
+    background-color: blue;
+    color: yellowgreen;
+  }
+
+  .navbar a {
+    float: left;
+    display: block; 
+    color: #1c1b1b;
+    color: blue;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+    .navbar a.active {
+      background-color: blue;
+      color: greenyellow;
+    }
+
 
   body { margin: 0;}
 * {box-sizing: border-box;}
