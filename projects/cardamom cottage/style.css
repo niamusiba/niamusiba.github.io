@@ -25,6 +25,25 @@ img {
     padding-top: 475px;
   }
 
+  .natalia-name:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
   .natalia-grid {
       display: flex;
   }
@@ -38,6 +57,97 @@ img {
   }
 
   .natalia-grid .text-col {
+      flex: 40%;
+  }
+
+
+  p {
+    color: 1c1b1b;
+    text-align: justify;
+    width: 88%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+   .nia-name {
+    padding-top: 475px;
+  }
+
+  .nia-name:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+  .nia-grid {
+      display: flex;
+  }
+
+  .nia-grid section {
+      padding: 40px;
+  }
+
+  .nia-grid .photo-col {
+      flex: 60%;
+  }
+
+  .nia-grid .text-col {
+      flex: 40%;
+  }
+
+  .bryn-name {
+    width: 80%;
+    padding-top: 475px;
+  }
+
+  .bryn-name:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+  .bryn-name:hover {
+    filter: invert(169%);
+  }
+
+  .bryn-grid {
+      display: flex;
+  }
+
+  .bryn-name section {
+      padding: 40px;
+  }
+
+  .bryn-grid .photo-col {
+      flex: 60;
+  }
+
+  .bryn-grid .text-col {
       flex: 40%;
   }
 
