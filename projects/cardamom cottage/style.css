@@ -9,7 +9,9 @@ img {
   .home-img:hover {
     filter: invert(169%);
   }
-  
+  .nav-img:hover {
+    filter: invert(169%);
+  }
   body {
       background: yellowgreen;
   }
@@ -67,7 +69,7 @@ img {
     width: 88%;
     font-family: 'Roboto', sans-serif;
   }
-  
+
    .nia-name {
     padding-top: 475px;
   }
@@ -151,7 +153,55 @@ img {
       flex: 40%;
   }
 
-  .nav-img:hover {
+  .maya-name {
+    width: 60%;
+    padding-top: 475px;
+  }
+
+  .maya-name:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+  .maya-name:hover {
+    filter: invert(169%);
+  }
+
+  .maya-grid {
+      display: flex;
+  }
+
+  .maya-name section {
+      padding: 40px;
+  }
+
+  .maya-grid .photo-col {
+      flex: 60;
+  }
+
+  .maya-grid .text-col {
+      flex: 40%;
+  }
+
+  .maya-img {
+    width: 80%;
+  }
+
+  .maya-img:hover {
     filter: invert(169%);
   }
   
