@@ -1,7 +1,11 @@
+body {
+    background: #f6d1c6 
+}
+
 main {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%; 
 }
 
 .flex-container {
@@ -37,3 +41,24 @@ main {
     width: 100%;
     padding-bottom: 50px;
 }
+
+.orange {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.orange:hover {
+    animation: rotation 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
