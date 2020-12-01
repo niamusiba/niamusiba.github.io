@@ -111,3 +111,33 @@ h3 {
     text-align: center;
     padding: 15px;
 }
+
+
+.slider {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.slide-content {
+    display: grid;
+    grid-template-columns;
+}
+
+.slide-content .text-content {margin-left: 20px;}
+
+.slide-content img {width: 100%;}
+
+.slick-initialized .slick-slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media only screen and (min-width: 1024px){
+    header {
+        display: flex;
+    }
+    .menu { display: flex; }
+}
