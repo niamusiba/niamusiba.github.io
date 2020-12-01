@@ -13,13 +13,10 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
     width: fit-content;
 }
 
 .title {
-    padding-top: 200px;
     padding-bottom: 50px;
     font-family: roc-grotesk, sans-serif;
     font-size: 100px;
@@ -31,12 +28,20 @@ main {
 .menu {
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family: roc-grotesk, sans-serif;
+    font-size: 28px;
+    line-height: 30px;
 }
 
-.title {
-    padding-top: 50px;
-    padding-bottom: 50px;
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+h3 {
+    padding: 10px;
+}
+
 
 .bio {
     padding-top: 50px;
@@ -47,9 +52,11 @@ main {
 .img {
     width: 100%;
     padding-bottom: 50px;
+    max-width: 800px;
 }
 
 .orange {
+    padding-top: 100px;
     max-width: 800px;
     max-height: 800px;
 }
@@ -69,3 +76,30 @@ main {
   }
 }
 
+.navbar {
+    background-color:#7fd19a;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: roc-grotesk, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar:hover {
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: blue;
+    color: yellowgreen;
+  }
+
+.blue {
+    max-width: 50px;
+    max-height: 50px;
+}
