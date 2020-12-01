@@ -13,52 +13,74 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: fit-content;
 }
 
 .title {
-    padding-bottom: 50px;
     font-family: roc-grotesk, sans-serif;
     font-size: 100px;
     font-weight: 600;
     font-style: normal;
-    line-height: 80px;
+    line-height: 10px;
 }
 
-.menu {
+.juices {
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: roc-grotesk, sans-serif;
     font-size: 28px;
-    line-height: 30px;
+    line-height: 10px;
+    text-align: center;
 }
 
-h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.smoothies {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: roc-grotesk, sans-serif;
+    font-size: 28px;
+    line-height: 10px;
+    text-align: center;
 }
 
 h3 {
-    padding: 10px;
+    padding-top: 15px;
 }
-
 
 .bio {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    font-family: roc-grotesk, sans-serif;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+.location {
+    font-family: roc-grotesk, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.map {
+    max-width: 700px;
+    max-height: 700px;
+}
+
+.feedback {
+    font-family: roc-grotesk, sans-serif;
 }
 
 .img {
     width: 100%;
     padding-bottom: 50px;
-    max-width: 800px;
+    padding-top: 0px;
+    max-width: 700px;
 }
 
 .orange {
     padding-top: 100px;
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 700px;
+    max-height: 700px;
 }
 
 .orange:hover {
@@ -88,18 +110,4 @@ h3 {
     font-style: normal;
     text-align: center;
     padding: 15px;
-}
-
-.navbar:hover {
-    color: black;
-}
-
-.topnav a:hover {
-    background-color: blue;
-    color: yellowgreen;
-  }
-
-.blue {
-    max-width: 50px;
-    max-height: 50px;
 }
