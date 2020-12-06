@@ -150,7 +150,7 @@ h3 {
 
 .slide-content {
     display: grid;
-    grid-template-columns;
+    grid-template-columns; 
 }
 
 .slide-content .text-content {margin-left: 20px; margin-top: 10px;}
