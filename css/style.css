@@ -53,12 +53,15 @@ a {
 a:visited {
   color: blanchedalmond;
 }
+
 nav a {
   padding-right: 20px;
 }
+
 nav a:hover {
   color: palevioletred;
 }
+
 nav {
   background-color: black;
   padding: 12px;
@@ -82,3 +85,6 @@ flex: 1;
   flex-grow: 2;
 }
 
+.three-col .photo {
+  columns: 3;
+}
